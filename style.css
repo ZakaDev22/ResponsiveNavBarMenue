@@ -97,12 +97,18 @@ ul li::before {
     height: 190px;
     background-color: #89d7f9;
     position: absolute;
+    background-size: 150%;
+    /* Zoom effect */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent repeating */
     left: 50%;
     top: 50%;
     transform: translate(-50%, 70%);
     border-radius: 50%;
     box-shadow: 0 0 60px orangered;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
     opacity: 0;
 }
 
